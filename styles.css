@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    background-color: antiquewhite;
+    margin: 0px;
+}
+
+.header{
+    background-color: bisque;
+    height: 50px;
+}
+
+.intro{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.content{
+    background-color: crimson;
+    height: 200px;
+}
+
+.footer{
+    background-color: darkkhaki;
+    height: 50px;
+}
