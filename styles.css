@@ -1,28 +1,61 @@
 body{
+    border: 0px;
     margin: 0px;
+    padding: 0px;
+    background-color: ghostwhite;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    display: flex;
+    flex-direction: column;
 }
 
-.container{
-    background-color: antiquewhite;
+.header, .intro, .content, .footer{
+    padding: 10px 200px;
     margin: 0px;
+    border: 0px;
 }
 
+/* header section */
 .header{
-    background-color: bisque;
-    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.logo, .pages{
+    display: flex;
+    font-size: 24px;
+    color: ghostwhite;
+}
+
+.pages ul{
+    list-style: none;
+    display: flex;
+    justify-self: flex-end;
+    gap: 16px;
+}
+
+.pages a, a:visited{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+/* intro section */
 .intro{
-    background-color: aquamarine;
-    height: 200px;
+    background-color: ghostwhite;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.content{
-    background-color: crimson;
-    height: 200px;
+.intro img{
+    height: 500px;
 }
 
+/* footer section */
 .footer{
-    background-color: darkkhaki;
+    background-color: black;
     height: 50px;
+    display: flex;
 }
