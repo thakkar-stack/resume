@@ -2,21 +2,24 @@ body{
     border: 0px;
     margin: 0px;
     padding: 0px;
-    background-color: ghostwhite;
+    background-color: black;
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     display: flex;
     flex-direction: column;
 }
+html{
+    scroll-behavior: smooth;
+}
 
-.header, .intro, .content, .footer{
-    padding: 10px 200px;
+#header, #intro, #about-me, #projects, #contacts, #footer{
+    color: ghostwhite;
+    padding: 10px 120px;
     margin: 0px;
     border: 0px;
 }
 
 /* header section */
-.header{
-    background-color: black;
+#header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,36 +28,46 @@ body{
 .logo, .pages{
     display: flex;
     font-size: 24px;
-    color: ghostwhite;
 }
 
 .pages ul{
     list-style: none;
     display: flex;
-    justify-self: flex-end;
-    gap: 16px;
+    gap: 20px;
 }
 
-.pages a, a:visited{
+.pages a, a:visited, .logo a{
     text-decoration: none;
     color: ghostwhite;
 }
 
 /* intro section */
-.intro{
-    background-color: ghostwhite;
+#intro{
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.intro img{
+#intro img{
     height: 500px;
 }
 
+/* about me section */
+#about-me{
+    background-color: black;
+    color: ghostwhite;
+    display: flex;
+}
+
+.skills, .hobbies{
+    flex: 1;
+    padding: 0px;
+
+}
+
 /* footer section */
-.footer{
+#footer{
     background-color: black;
     height: 50px;
     display: flex;
