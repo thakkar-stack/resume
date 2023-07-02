@@ -21,7 +21,7 @@ html{
 }
 
 /* header section */
-#header{
+/* #header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,7 +41,7 @@ html{
 .pages a, a:visited, .logo a{
     text-decoration: none;
     color: ghostwhite;
-}
+} */
 
 /* intro section */
 #intro{
@@ -49,6 +49,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: x-large;
 }
 
 /* #intro img{
