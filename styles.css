@@ -2,6 +2,7 @@ body{
     border: 0px;
     margin: 0px;
     padding: 0px;
+    background-image: url(./images/doodad.png);
     background-color: black;
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     display: flex;
@@ -14,7 +15,7 @@ html{
 
 #header, #intro, #about-me, #projects, #contacts, #footer{
     color: ghostwhite;
-    padding: 10px 300px;
+    padding: 0px 300px;
     margin: 0px;
     border: 0px;
 }
@@ -44,19 +45,18 @@ html{
 
 /* intro section */
 #intro{
-    height: auto;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#intro img{
+/* #intro img{
     height: 500px;
-}
+} */
 
 /* about me section */
 #about-me{
-    background-color: black;
     color: ghostwhite;
     display: flex;
 }
@@ -69,7 +69,6 @@ html{
 
 /* footer section */
 #footer{
-    background-color: black;
     height: 50px;
     display: flex;
 }
